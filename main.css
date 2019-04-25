@@ -1,0 +1,88 @@
+html{
+    background-color: gainsboro;
+}
+
+header{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 18px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #cccccc;
+
+}
+
+/*#navbar{
+    font-size:45;
+}*/
+
+#navbar a{
+   background-color: #E3E3E3;
+   border: 1px solid black;
+   text-decoration: none;
+   font-size: .75em; 
+   padding: .25em .5em;
+   
+}
+
+#navbar a:hover{
+background-color: #adadad;
+}
+
+
+
+/*#bio{
+    width: 600px;
+    
+}*/
+
+#info p{
+    font-size: 20px;
+}
+
+
+#pic1{
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid black;
+    margin-left: 25%; 
+    display: block;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 100px;
+}
+
+#name{
+    font-size: 35px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+#dad, #mom, #me{
+    width:100%;
+    max-width: 300px;
+
+    margin: 0 auto;
+}
+
+#images{
+    display: flex;
+}
+
+#OPR{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#oprInfo{
+    display: block;
+}
