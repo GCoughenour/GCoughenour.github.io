@@ -1,5 +1,7 @@
 html{
     background-color: gainsboro;
+    font-family: 'Archivo', sans-serif;
+
 }
 
 header{
@@ -83,6 +85,16 @@ background-color: #adadad;
     width: 500px;
 }
 
+#OPRDiv{
+    display: block;
+    width: 500px;
+}
+
 #oprInfo{
     display: block;
+}
+
+#LCVRDiv{
+    display: block;
+    width: 500px;
 }
