@@ -1,36 +1,68 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel = "stylesheet" href = "main.css">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garrick's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1 id = "header">Welcome to my Portfolio!</h1>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href = "#">Home</a></li>
+          <li><a href = "#">About Me</a></li>
+          <li><a href = "#">Works</a></li>  
+        </ul>
 
-</head>
-<body>
-    
-   <header>     
-        <div id = "nav">
-        <nav id = "navbar">
-            <a href = "index.html">Home</a>
-            <a href = "works.html">Works</a>
-            <a href="aboutme.html">About Me</a>
-            <a href = "contact.html">Contact Me</a>
-        </nav>
+      </nav>
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="callout">
+
+            <div id = "content">
+                <h3>Thanks for being interested in my work!</h3>
+
+              <div id = "text">              
+                <p>I am a Clarkston, Washington based web developer currently going to LCSC for a BAS in Web Development & Design. I absolutely love working on static sites as well as working with JS! To see what I'm best at click the "Works" link up in the navigation menu! If your interested in contacting me you can get ahold of me on most social media sites, as well as through the contact form of this website.
+              </div>
+              <aside><img id = "selfie" src = "images/selfie.jpg"></aside></p></div>
+              <h3>Some things I specialize in are:</h3>
+            
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <p>C# <img id = "logo" src = "images/c-logo.png"></p>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <p>Javascript <img id = "logo" src = "images/js-logo.png"></p>
+              </div>
+              <div id = "php" class="large-4 medium-4 cell">
+                <p>PHP<img id = "logo" src = "images/php-logo.png"></p>
+              </div>
+            </div>
+            <div id = "bottom" class="grid-x grid-padding-x">
+              <div id = "htmlcss" class="large-4 medium-4 medium-push-2 cell">
+                <p>HTML5/CSS3 <img id = "logo" src = "images/html-logo.png"><img id = "logo" src = "images/css-logo.png"></p>
+              </div>
+              <div id = "mysql" class="large-4 medium-4 medium-pull-2 cell">
+                <p>MySQL<img id = "logo" src = "images/mysql-logo.jpg"></p>
+              </div>
+            </div>
+          </div>
         </div>
-    </header> 
-        <div id = "name">
-        <img src = "images/websiteLogo.png" id = "logo">       
-        <p>Garrick Coughenour<br>
-        Web Developer</p>
-        </div>
-   <div id = "info"><p id = "bio"> I am a Clarkston, Washington based web developer studying Web Development & Design at LCSC, this is my second semester as an official web
-       design major, however I have been coding since I started college, as I originally was studying Computer Science. I greatly enjoy making 
-       websites (some of my work can be found in the "Works" page of the site). Thanks for being interested in my work!
-   </p>
-   </div>
-</body>
-    <footer>&copy; Garrick Coughenour 2019</footer>
+      </div>
+      <footer>Garrick Coughenour &copy; 2019</footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
