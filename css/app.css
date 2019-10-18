@@ -44,7 +44,7 @@ nav li {
     padding: 10px;
     border: 1px solid black;
     background-color: gainsboro;
-    width: 100px;
+    width: 150px;
     display: inline-block;
     text-align: center;
     margin-right: 1em;
@@ -78,7 +78,7 @@ footer{
 #content{
     overflow: hidden;
     max-width: 100%;
-    background-color: gainsboro;
+    /**background-color: gainsboro;**/
 }
 
 #text{
@@ -89,4 +89,8 @@ footer{
 
 h3{
     color: #1779ba
+}
+
+#note , #contact-form{
+    border-top:1px solid black;
 }
