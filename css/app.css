@@ -94,3 +94,16 @@ h3{
 #note , #contact-form{
     border-top:1px solid black;
 }
+
+#about-content{
+    overflow: hidden;
+    max-width: 100%;
+    width: 800px;
+    align-content: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#about-h1{
+    text-align: center;
+}
